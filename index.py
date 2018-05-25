@@ -10,10 +10,10 @@ def controller():
         result_2 = int(first_number) * int(second_number)
         print result_2
     elif user_action == "-":
-        result_3 = int(first_number) + int(second_number)
+        result_3 = int(first_number) - int(second_number)
         print result_3
     elif user_action == "/":
-        result_4 = int(first_number) + int(second_number)
+        result_4 = int(first_number) % int(second_number)
         print result_4
     else:
         print "Not correct symbol!"
